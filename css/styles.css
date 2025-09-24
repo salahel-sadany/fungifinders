@@ -324,7 +324,7 @@ dd {
   }
 
   @media (width < 760px) {
-    [aria-expanded='false'] ~ .primary-navigation {
+    [aria-expanded='true'] ~ .primary-navigation {
       display: block;
     }
 
